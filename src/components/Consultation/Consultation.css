@@ -1,0 +1,60 @@
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin: auto;
+  max-width: 100%;
+  font-family: "";
+}
+.features .container i {
+  color: var(--greenLigth-color);
+}
+.features .container .feat {
+  background-color: white;
+  border-radius: 40px 10px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.features .container .feat h3 {
+  font-family: "Caprasimo";
+  /* font-weight: ; */
+  margin: 30px 0;
+  color: var(--gray-color);
+}
+.features .feat p {
+  color: var(--green-color);
+  line-height: 1.8;
+  font-size: 15px;
+}
+.consoltation ul li.active {
+  color: var(--gray-color);
+  background-color: var(--green-color);
+  transition: 0.2 ease-in-out;
+  padding-top: 15px;
+  width: 200px;
+  height: 58px;
+  border-radius: 30px;
+  text-align: center;
+}
+.consoltation ul li.unactive:hover {
+  color: var(--gray-color);
+  transition: 0.2 ease-in-out;
+  padding-top: 15px;
+  width: 200px;
+  height: 58px;
+  border-radius: 30px;
+  text-align: center;
+}
+.consoltation li.unactive {
+  color: var(--green-color);
+  width: 200px;
+  height: 58px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  padding-top: 15px;
+}
+.consoltation ul li {
+  position: relative;
+  cursor: pointer;
+}
